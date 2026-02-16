@@ -102,3 +102,9 @@ graph TB
     style HOOKS fill:#333,stroke:#fff,color:#fff
 
 ```
+
+## ⚠️ Continuous Evolution Notice
+
+The **eyeC** triplet—Sovereign-Shield, Sentinel-Trace, and Maelstrom-Breach—is currently under active and continuous development.
+
+**Note:** This project is a living research framework. It is recommended to check the latest commits in each repository for the most up-to-date implementation details.
