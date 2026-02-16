@@ -30,12 +30,40 @@ The framework operates as a closed-loop system where each component validates or
 - **Role:** Implements zero-trust policies and automated incident response.
 - **Capabilities:** Kernel-level traffic dropping via Cilium, micro-segmentation, and sub-3s pod isolation via Ansible.
 - **Goal:** Maintains system integrity and ensures policy compliance during active exploitation attempts.
+- 
+---
+
+## 🔁 The Purple Team Workflow
+
+The integration of the triplet follows a rigorous validation cycle:
+
+1. **Generation:** Maelstrom-Breach injects multi-vector attack traffic into the environment.
+2. **Detection:** Sentinel-Trace captures the resulting syscalls and anomalous network patterns.
+3. **Enforcement:** Sovereign-Shield applies eBPF-based filters to drop malicious packets at the kernel level.
+4. **Response:** The automated pipeline triggers quarantine protocols to isolate compromised assets.
 
 ---
 
+## 🛠️ Technical Specifications
+
+| Domain | Technology Stack |
+|--------|-----------------|
+| Kernel Hooking | eBPF (XDP, TC), Cilium |
+| Monitoring | Hubble, Prometheus, Grafana |
+| Infrastructure | K3s (Kubernetes), Ubuntu Server, Debian |
+| Automation | Ansible, Python, Bash |
+
 ---
 
-## Architecture
+## 📬 Deployment Status
+
+- **Environment:** Isolated Laboratory Simulation
+- **Target Architecture:** Linux Kernel 5.15+ (LTS)
+- **Objective:** Achieving a good detection rate for threats
+
+  ---
+
+## Architecture: Global View
 
 ```mermaid
 graph TB
@@ -67,39 +95,4 @@ graph TB
     ACTION -->|Hubble / Grafana| METRICS[Performance & Fidelity Metrics]
     ISO -.->|Purple Team Feedback| ORCH
 
-    %% Styling
-    style Red_Team fill:#1a0000,stroke:#ff4d4d,stroke-width:2px,color:#fff
-    style Blue_Team_Trace fill:#001a33,stroke:#3399ff,stroke-width:2px,color:#fff
-    style Blue_Team_Shield fill:#001a00,stroke:#00cc44,stroke-width:2px,color:#fff
-    style HOOKS fill:#333,stroke:#fff,color:#fff
-
 ```
----
-
-## 🔁 The Purple Team Workflow
-
-The integration of the triplet follows a rigorous validation cycle:
-
-1. **Generation:** Maelstrom-Breach injects multi-vector attack traffic into the environment.
-2. **Detection:** Sentinel-Trace captures the resulting syscalls and anomalous network patterns.
-3. **Enforcement:** Sovereign-Shield applies eBPF-based filters to drop malicious packets at the kernel level.
-4. **Response:** The automated pipeline triggers quarantine protocols to isolate compromised assets.
-
----
-
-## 🛠️ Technical Specifications
-
-| Domain | Technology Stack |
-|--------|-----------------|
-| Kernel Hooking | eBPF (XDP, TC), Cilium |
-| Monitoring | Hubble, Prometheus, Grafana |
-| Infrastructure | K3s (Kubernetes), Ubuntu Server, Debian |
-| Automation | Ansible, Python, Bash |
-
----
-
-## 📬 Deployment Status
-
-- **Environment:** Isolated Laboratory Simulation
-- **Target Architecture:** Linux Kernel 5.15+ (LTS)
-- **Objective:** Achieving a good detection rate for threats
