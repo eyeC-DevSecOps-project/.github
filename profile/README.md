@@ -1,4 +1,4 @@
-# 👁️ eyeC***(ybersecurity)*** — Beyond Defense, Absolute Visibility
+# 👁️ eyeC(ybersecurity) — Beyond Defense, Absolute Visibility
 
 > **Invisibility is not an option. We make the kernel transparent and the adversary predictable.**
 
