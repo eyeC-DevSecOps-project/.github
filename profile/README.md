@@ -59,4 +59,4 @@ The integration of the triplet follows a rigorous validation cycle:
 
 - **Environment:** Isolated Laboratory Simulation
 - **Target Architecture:** Linux Kernel 5.15+ (LTS)
-- **Objective:** Achieving a documented 99% detection rate for advanced exfiltration techniques
+- **Objective:** Achieving a good detection rate for threats
