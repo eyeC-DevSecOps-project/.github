@@ -4,6 +4,22 @@
 ![eBPF](https://img.shields.io/badge/Linux-eBPF-000000?logo=linux\&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-Zero--Trust-red)
 
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![AlmaLinux](https://img.shields.io/badge/AlmaLinux-D42028?style=for-the-badge&logo=almalinux&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![eBPF](https://img.shields.io/badge/eBPF-1856BA?style=for-the-badge&logo=linux&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-FF6600?style=for-the-badge&logo=matrix&logoColor=white)
+![NIST](https://img.shields.io/badge/NIST_Framework-003366?style=for-the-badge&logo=nist&logoColor=white)
+![Zero Trust](https://img.shields.io/badge/Zero_Trust-Cybersecurity-blueviolet?style=for-the-badge)
 
 # 👁️ eyeC(ybersecurity) ~ (... I see!) — Beyond Defense, Absolute Visibility
 
