@@ -112,4 +112,4 @@ The **eyeC** triplet—Sovereign-Shield, Sentinel-Trace, and Maelstrom-Breach—
 
 **O'djuma Badolo**  
 Web Developer | Cybersecurity graduate | DevSecOps Enthusiast  
-*"Building secure systems by thinking like the storm."*
+> *"Building secure systems by thinking like the storm."*
