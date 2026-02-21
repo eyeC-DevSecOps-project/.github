@@ -31,16 +31,28 @@ This ecosystem is built upon three fundamental pillars, interconnected to form a
 * **Role:** IPS (Intrusion Prevention System) & Quarantine Orchestrator.
 * **Stack:** C++, Kubernetes (K3s), eBPF (Cilium), Ansible.
 * **Core Innovation:** Implements "Zero-Trust" micro-segmentation and real-time node isolation using eBPF-powered network policies without service downtime.
+* **Content:**
+    * **V1:** Genesis (Foundation & IaC)
+    * **V2:** *Complexify Not Crazyfy* (with C++ Orchestration Engine)
 
 ### 2. 🛰️ [Sentinel-Trace](./Sentinel-Trace) (The Intelligence Brain)
 * **Role:** IDS (Intrusion Detection System) & Correlation Engine.
 * **Stack:** C++, eBPF (Tetragon), MITRE ATT&CK Mapping.
 * **Core Innovation:** A behavioral reasoning engine that ingests raw eBPF telemetry to detect complex attack chains (e.g., Reverse Shells or Ransomware patterns) directly within the Linux Kernel.
+* **Content:**
+    * **V1:** Genesis (Signal capture)
+    * **V2:** Behavioral Intelligence (with C++ Correlation Engine)
 
 ### 3. 🌪️ [Maelstrom-Breach](./Maelstrom-Breach) (The Adversary Engine)
 * **Role:** BAS (Breach & Attack Simulation) & Red Teaming.
 * **Stack:** C++, Python, Bash.
-* **Core Innovation:** An automated campaign orchestrator that simulates multi-stage APT tactics (DDoS, SQLi, Data Exfiltration) to rigorously validate the defense trilogy's effectiveness.
+* **Core Innovation:** An automated campaign orchestrator that simulates multi-stage APT tactics to rigorously validate the defense trilogy's effectiveness.
+* **Content:**
+    * **V1:** Genesis (The Chaos Engine)
+    * **Components:**
+        * **The Controller (C++):** Orchestrates phases defined in JSON campaign files.
+        * **The Exploit Engine:** Delivers cross-platform payloads (Python, Bash, C++).
+        * **The Target Hub:** Multi-OS lab management (Metasploitable, Windows, Debian).
 
 ---
 
