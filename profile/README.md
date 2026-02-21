@@ -10,51 +10,62 @@
 
 > *"Turning the invisible into actionable defense. A Closed-Loop Security Trilogy."*
 
-L'écosystème eyeC est une suite de projets intégrés conçue pour démontrer la maîtrise du cycle de vie d'un incident de cybersécurité, de l'émulation de l'adversaire à la réponse automatisée au niveau du noyau (Kernel).
+# 🛰️ The eyeC Project: A Closed-Loop Security Trilogy
+> **"Turning the kernel-level invisible into actionable defense."**
+
+The **eyeC Project** is an integrated cybersecurity ecosystem designed to demonstrate mastery over the full incident lifecycle: from **Adversary Emulation** to **Automated Kernel-Level Response**.
+
+
 
 ---
 
-## 🏗️ L'Architecture de la Trilogie
+## 🏗️ The Trilogy Architecture
 
-Mon approche repose sur l'interconnexion de trois piliers fondamentaux :
+This ecosystem is built upon three fundamental pillars, interconnected to form a "Self-Healing" infrastructure.
 
-### 1. 🛡️ Sovereign-Shield (The Enforcement Plane)
+### 1. 🛡️ [Sovereign-Shield](./Sovereign-Shield) (The Enforcement Plane)
+* **Role:** IPS (Intrusion Prevention System) & Quarantine Orchestrator.
+* **Stack:** C++, Kubernetes (K3s), eBPF (Cilium), Ansible.
+* **Core Innovation:** Implements "Zero-Trust" micro-segmentation and real-time node isolation using eBPF-powered network policies without service downtime.
 
-* **Rôle :** IPS (Intrusion Prevention System) & Orchestrateur de Quarantaine.
-* **Technologies :** C++, Kubernetes (K3s), eBPF (Cilium), Ansible.
-* **Innovation :** Capacité d'isoler des nœuds compromis en temps réel via des politiques réseau "Hardened" sans interruption de service.
+### 2. 🛰️ [Sentinel-Trace](./Sentinel-Trace) (The Intelligence Brain)
+* **Role:** IDS (Intrusion Detection System) & Correlation Engine.
+* **Stack:** C++, eBPF (Tetragon), MITRE ATT&CK Mapping.
+* **Core Innovation:** A behavioral reasoning engine that ingests raw eBPF telemetry to detect complex attack chains (e.g., Reverse Shells or Ransomware patterns) directly within the Linux Kernel.
 
-### 2. 🛰️ Sentinel-Trace (The Intelligence Brain)
-
-* **Rôle :** IDS (Intrusion Detection System) & Moteur de Corrélation.
-* **Technologies :** C++, eBPF (Tetragon), MITRE ATT&CK Mapping.
-* **Innovation :** Analyse comportementale au niveau du noyau Linux pour détecter des chaînes d'attaques complexes (ex: Reverse Shells) là où les outils traditionnels échouent.
-
-### 3. 🌪️ Maelstrom-Breach (The Adversary Engine)
-
-* **Rôle :** BAS (Breach & Attack Simulation) & Red Teaming.
-* **Technologies :** C++, Python, Bash.
-* **Innovation :** Automatisation de campagnes d'attaques multi-étapes (DDoS, SQLi, Ransomware) pour valider l'efficacité des boucliers défensifs.
+### 3. 🌪️ [Maelstrom-Breach](./Maelstrom-Breach) (The Adversary Engine)
+* **Role:** BAS (Breach & Attack Simulation) & Red Teaming.
+* **Stack:** C++, Python, Bash.
+* **Core Innovation:** An automated campaign orchestrator that simulates multi-stage APT tactics (DDoS, SQLi, Data Exfiltration) to rigorously validate the defense trilogy's effectiveness.
 
 ---
 
-## 🔄 Le Cycle de Validation "eyeC"
+## 🔄 The "eyeC" Validation Loop
 
-Voici comment les trois projets collaborent lors d'une simulation :
+The power of this trilogy lies in its synergy. Every defensive update is validated by an offensive simulation:
 
-1. **ATTACK :** `Maelstrom-Breach` lance une campagne de Ransomware (`ransom_sim.cpp`).
-2. **DETECTION :** `Sentinel-Trace` identifie un pic d'appels système suspects via ses hooks eBPF et corrèle l'activité.
-3. **RESPONSE :** `Sentinel-Trace` envoie un signal critique à `Sovereign-Shield`.
-4. **PROTECTION :** `Sovereign-Shield` exécute instantanément une isolation réseau du nœud cible.
+1.  **ATTACK:** `Maelstrom-Breach` executes a "Storm-Front" campaign, initiating a ransomware simulation (`ransom_sim.cpp`).
+2.  **DETECTION:** `Sentinel-Trace` captures the spike in unauthorized system calls via eBPF and correlates the file-system activity.
+3.  **REASONING:** The engine identifies a **MITRE T1486** technique and dispatches a critical signal to the enforcement plane.
+4.  **RESPONSE:** `Sovereign-Shield` triggers an immediate network quarantine and kills the malicious process tree.
+
+
 
 ---
 
-## 🛠️ Stack Technique Globale
+## 🛠️ Global Technical Stack
 
-* **Languages :** C++17 (Performance), Python (Payloads), Bash (Automation).
-* **Infra :** Kubernetes, Docker, Multi-OS (Debian, AlmaLinux, Windows).
-* **Security :** eBPF/Tetragon, Cilium, MITRE ATT&CK, NIST Framework.
-* **Ops :** Ansible (IaC), CMake, CI/CD.
+* **Languages:** C++17 (Performance Core), Python (Payloads), Bash (Automation).
+* **Infrastructure:** Kubernetes, Docker, Multi-OS Lab (Debian, AlmaLinux, Windows).
+* **Security Frameworks:** eBPF/Tetragon, Cilium, MITRE ATT&CK, NIST Cybersecurity Framework (Recover/Protect/Detect).
+* **DevOps/IaC:** Ansible, CMake, CI/CD Pipelines.
+
+---
+
+## 🧭 Project Philosophy
+Most security tools operate in silos. The **eyeC Project** breaks these silos by creating a **Feedback Loop** where offensive intelligence directly informs defensive posture. 
+
+> *"To build a shield, you must first understand the storm."*
 
 ---
 
