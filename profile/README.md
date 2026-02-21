@@ -7,6 +7,8 @@
 ### ☁️ Infrastructure & Operating Systems
 ![K3s](https://img.shields.io/badge/Kubernetes-K3s-326ce5?logo=kubernetes&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white) ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?logo=kali-linux&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white) ![AlmaLinux](https://img.shields.io/badge/AlmaLinux-D42028?logo=almalinux&logoColor=white) ![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white) ![VMware](https://img.shields.io/badge/VMware-Virtualization-607078?logo=vmware&logoColor=white)
 
+---
+
 # 👁️ eyeC(ybersecurity) ~ (... I see!) — Beyond Defense, Absolute Visibility
 
 
