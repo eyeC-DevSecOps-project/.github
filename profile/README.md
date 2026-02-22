@@ -23,7 +23,7 @@ The **eyeC Project** is an integrated cybersecurity ecosystem designed to demons
 
 ---
 
-## 🏗️ The Trilogy Architecture
+## 🏗️ The Trilogy Architecture: The Triplets
 
 This ecosystem is built upon three fundamental pillars, interconnected to form a "Self-Healing" infrastructure.
 
