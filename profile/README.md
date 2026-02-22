@@ -27,7 +27,7 @@ The **eyeC Project** is an integrated cybersecurity ecosystem designed to demons
 
 This ecosystem is built upon three fundamental pillars, interconnected to form a "Self-Healing" infrastructure.
 
-### 1. 🛡️ [Sovereign-Shield](./Sovereign-Shield) (The Enforcement Plane)
+### 1. 🛡️ [Sovereign-Shield](https://github.com/eyeC-Beyond-Defense-Absolute-Visibility/SOVERSOVEREIGN-SHIELD__Adversary_Emulation_Defense__Purple-Team) (The Enforcement Plane)
 * **Role:** IPS (Intrusion Prevention System) & Quarantine Orchestrator.
 * **Stack:** C++, Kubernetes (K3s), eBPF (Cilium), Ansible.
 * **Core Innovation:** Implements "Zero-Trust" micro-segmentation and real-time node isolation using eBPF-powered network policies without service downtime.
@@ -35,7 +35,7 @@ This ecosystem is built upon three fundamental pillars, interconnected to form a
     * **V1:** Genesis (Foundation & IaC)
     * **V2:** *Complexify Not Crazyfy* (with C++ Orchestration Engine)
 
-### 2. 🛰️ [Sentinel-Trace](./Sentinel-Trace) (The Intelligence Brain)
+### 2. 🛰️ [Sentinel-Trace](https://github.com/eyeC-Beyond-Defense-Absolute-Visibility/SENTINEL-TRACE__Incident_Response_and_Threat_Hunting__Blue-Team/tree/feature/v2-correlation?tab=readme-ov-file) (The Intelligence Brain)
 * **Role:** IDS (Intrusion Detection System) & Correlation Engine.
 * **Stack:** C++, eBPF (Tetragon), MITRE ATT&CK Mapping.
 * **Core Innovation:** A behavioral reasoning engine that ingests raw eBPF telemetry to detect complex attack chains (e.g., Reverse Shells or Ransomware patterns) directly within the Linux Kernel.
@@ -43,7 +43,7 @@ This ecosystem is built upon three fundamental pillars, interconnected to form a
     * **V1:** Genesis (Signal capture)
     * **V2:** Behavioral Intelligence (with C++ Correlation Engine)
 
-### 3. 🌪️ [Maelstrom-Breach](./Maelstrom-Breach) (The Adversary Engine)
+### 3. 🌪️ [Maelstrom-Breach](https://github.com/eyeC-Beyond-Defense-Absolute-Visibility/MAELSTROM-BREACH__Red_Team) (The Adversary Engine)
 * **Role:** BAS (Breach & Attack Simulation) & Red Teaming.
 * **Stack:** C++, Python, Bash.
 * **Core Innovation:** An automated campaign orchestrator that simulates multi-stage APT tactics to rigorously validate the defense trilogy's effectiveness.
