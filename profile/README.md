@@ -35,7 +35,7 @@ This ecosystem is built upon three fundamental pillars, interconnected to form a
     * **V1:** Genesis (Foundation & IaC)
     * **V2:** *Complexify Not Crazyfy* (with C++ Orchestration Engine)
 
-### 2. 🛰️ [Sentinel-Trace](https://github.com/eyeC-Beyond-Defense-Absolute-Visibility/SENTINEL-TRACE__Incident_Response_and_Threat_Hunting__Blue-Team/tree/feature/v2-correlation?tab=readme-ov-file) (The Intelligence Brain)
+### 2. 🛰️ [Sentinel-Trace](https://github.com/eyeC-Beyond-Defense-Absolute-Visibility/SENTINEL-TRACE__Incident_Response_and_Threat_Hunting__Blue-Team) (The Intelligence Brain)
 * **Role:** IDS (Intrusion Detection System) & Correlation Engine.
 * **Stack:** C++, eBPF (Tetragon), MITRE ATT&CK Mapping.
 * **Core Innovation:** A behavioral reasoning engine that ingests raw eBPF telemetry to detect complex attack chains (e.g., Reverse Shells or Ransomware patterns) directly within the Linux Kernel.
