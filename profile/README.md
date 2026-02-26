@@ -9,8 +9,7 @@
 
 ---
 
-# 👁️ eyeC(ybersecurity) ~ (... I see!) — Beyond Defense, Absolute Visibility
-
+# 👁️ eyeC(ybersecurity) ~ (... I see!)
 
 > *"Turning the invisible into actionable defense. A Closed-Loop Security Trilogy."*
 > 
@@ -20,6 +19,7 @@
  
 The **eyeC Project** is an integrated cybersecurity ecosystem designed to demonstrate mastery over the full incident lifecycle: from **Adversary Emulation** to **Automated Kernel-Level Response**.
 
+* **eyeC:** Beyond Defense, Absolute Visibility!*
 ---
 
 ## 🏗️ The Trilogy Architecture: "The Triplets"
