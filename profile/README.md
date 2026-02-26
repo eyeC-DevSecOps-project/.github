@@ -13,7 +13,9 @@
 
 
 > *"Turning the invisible into actionable defense. A Closed-Loop Security Trilogy."*
+> 
 > And
+> 
 > *"Turning the kernel-level invisible into actionable defense."*
  
 The **eyeC Project** is an integrated cybersecurity ecosystem designed to demonstrate mastery over the full incident lifecycle: from **Adversary Emulation** to **Automated Kernel-Level Response**.
